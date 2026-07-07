@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class BookingRequestDTO {
-	private Long userId;
+	private Long UserId;
 	private Long flightId;
 	private String seatNumber;
 	private String firstName;
